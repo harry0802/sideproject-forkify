@@ -1,8 +1,6 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-// import icons from 'url:../img/icons.svg';
-
 import * as model from '../models/model';
 import * as recipeView from '../views/recipeView';
 import * as searchView from '../views/searchView';

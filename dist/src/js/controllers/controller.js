@@ -587,7 +587,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _webImmediateJs = require("core-js/modules/web.immediate.js");
 var _runtime = require("regenerator-runtime/runtime");
-// import icons from 'url:../img/icons.svg';
 var _model = require("../models/model");
 var _recipeView = require("../views/recipeView");
 var _searchView = require("../views/searchView");

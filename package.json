@@ -28,7 +28,7 @@
     "chokidar": "^3.5.3",
     "chrome-trace-event": "^1.0.3",
     "commander": "^2.20.3",
-    "core-js": "^3.30.2",
+    "core-js": "^3.37.1",
     "electron-to-chromium": "^1.4.421",
     "emojis-list": "^3.0.0",
     "enhanced-resolve": "^5.14.1",
@@ -93,12 +93,11 @@
   },
   "scripts": {
     "start:parcel": "parcel index.html src/js/controllers/controller.js",
-    "build": "parcel build index.html --dist-dir dist",
-    "start:live": "live-server --port=8080 --host=localhost ./dist",
-    "start": "npm-run-all --parallel start:parcel start:live",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build index.html --public-url . --dist-dir docs",
+    "start:live": "live-server --port=8080 --host=localhost ./docs",
+    "start": "npm-run-all --parallel start:parcel start:live"
   },
+  "homepage": "https://harry0802.github.io/sideproject-forkify/",
   "author": "",
   "license": "ISC"
 }
