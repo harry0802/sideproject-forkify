@@ -2699,7 +2699,7 @@ exports.default = {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createRecipeView", ()=>createRecipeView);
-var _iconsSvg = require("../../img/icons.svg");
+var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _viewJs = require("../views/view.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
@@ -2830,10 +2830,10 @@ class RenderRecipeView extends (0, _viewJsDefault.default) {
 }
 const createRecipeView = ()=>new RenderRecipeView();
 
-},{"../../img/icons.svg":"egtxW","../views/view.js":"bWlJ9","fractional":"3SU56","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"egtxW":[function(require,module,exports) {
-module.exports = require("d2fa84caa0ebd2f5").getBundleURL("74bQL") + "../../../icons.21bad73c.svg" + "?" + Date.now();
+},{"url:../../img/icons.svg":"48UH1","../views/view.js":"bWlJ9","fractional":"3SU56","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"48UH1":[function(require,module,exports) {
+module.exports = require("4c3a6acb3152e372").getBundleURL("74bQL") + "../../../icons.dfd7a6db.svg" + "?" + Date.now();
 
-},{"d2fa84caa0ebd2f5":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"4c3a6acb3152e372":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -2871,7 +2871,7 @@ exports.getOrigin = getOrigin;
 },{}],"bWlJ9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _iconsSvg = require("../../img/icons.svg");
+var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
     _data;
@@ -2967,7 +2967,7 @@ class View {
 }
 exports.default = View;
 
-},{"../../img/icons.svg":"egtxW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3SU56":[function(require,module,exports) {
+},{"url:../../img/icons.svg":"48UH1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3SU56":[function(require,module,exports) {
 /*
 fraction.js
 A Javascript fraction library.
@@ -3268,7 +3268,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _view = require("./view");
 var _viewDefault = parcelHelpers.interopDefault(_view);
-var _iconsSvg = require("../../img/icons.svg");
+var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class previewView extends (0, _viewDefault.default) {
     _getStr() {
@@ -3296,7 +3296,7 @@ class previewView extends (0, _viewDefault.default) {
 }
 exports.default = new previewView();
 
-},{"./view":"bWlJ9","../../img/icons.svg":"egtxW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6z7bi":[function(require,module,exports) {
+},{"./view":"bWlJ9","url:../../img/icons.svg":"48UH1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6z7bi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "pagination", ()=>pagination);
@@ -3304,7 +3304,7 @@ var _view = require("./view");
 var _viewDefault = parcelHelpers.interopDefault(_view);
 var _configJs = require("../../js/models/config.js");
 var _configJsDefault = parcelHelpers.interopDefault(_configJs);
-var _iconsSvg = require("../../img/icons.svg");
+var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class RenderPagination extends (0, _viewDefault.default) {
     _parentElment = document.querySelector(".pagination");
@@ -3353,7 +3353,7 @@ class RenderPagination extends (0, _viewDefault.default) {
 }
 const pagination = ()=>new RenderPagination();
 
-},{"./view":"bWlJ9","../../js/models/config.js":"8Aj0M","../../img/icons.svg":"egtxW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jpgVd":[function(require,module,exports) {
+},{"./view":"bWlJ9","../../js/models/config.js":"8Aj0M","url:../../img/icons.svg":"48UH1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jpgVd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "bookmarkview", ()=>bookmarkview);
