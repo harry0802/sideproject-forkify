@@ -1,4 +1,4 @@
-import icons from '../../img/icons.svg';
+import icons from 'url:../../img/icons.svg';
 
 export default class View {
   _data;
@@ -12,6 +12,36 @@ export default class View {
     this._parentElment.insertAdjacentHTML('afterbegin', markUp);
   }
 
+  // update(data) {
+  //   this._data = data;
+  //   const newMarkUp = this._getStr();
+  //   const newNode = document.createRange().createContextualFragment(newMarkUp);
+
+  //   const newElement = Array.from(newNode.querySelectorAll('*'));
+
+  //   const oldElement = Array.from(this._parentElment.querySelectorAll('*'));
+  //   newElement.forEach((newEl, i) => {
+  //     let oldEl = oldElement[i];
+  //     // 更新文字邏輯
+
+  //     if (
+  //       !newEl.isEqualNode(oldEl) &&
+  //       newEl.firstChild?.nodeValue.trim() !== ''
+  //     ) {
+  //       console.log({ oldEl });
+  //       console.log({ newEl });
+
+  //       oldEl.textContent = newEl.textContent;
+  //     }
+
+  //     // 跟新屬性邏輯
+  //     if (!newEl.isEqualNode(oldEl)) {
+  //       Array.from(newEl.attributes).forEach(newAttr =>
+  //         oldEl.setAttribute(newAttr.name, newAttr.value)
+  //       );
+  //     }
+  //   });
+  // }
   update(data) {
     this._data = data;
     const newMarkUp = this._getStr();

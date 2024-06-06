@@ -1,6 +1,6 @@
 import View from './view';
 import config from '../../js/models/config.js';
-import icons from '../../img/icons.svg';
+import icons from 'url:../../img/icons.svg';
 
 class RenderPagination extends View {
   _parentElment = document.querySelector('.pagination');
