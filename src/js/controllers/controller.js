@@ -103,4 +103,4 @@ const init = function () {
   recipeView.createRecipeView().getHandlerAddBookMarkde(controllerAddBookMark);
   addRecipeView.getHandlerUpLoad(controllerAddRicipe);
 };
-init();
+// init();

@@ -1,4 +1,4 @@
-import { async } from 'regenerator-runtime';
+// import { async } from 'regenerator-runtime';
 
 import config from '../../js/models/config.js';
 import helpers from '../../js/utils/helpers.js';
