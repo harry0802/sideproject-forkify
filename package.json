@@ -49,6 +49,7 @@
     "fast-json-stable-stringify": "^2.1.0",
     "fill-range": "^7.0.1",
     "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "glob-parent": "^5.1.2",
     "glob-to-regexp": "^0.4.1",
     "graceful-fs": "^4.2.11",
@@ -99,7 +100,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "build": "parcel build index.html --public-url  --no-scope-hoist./",
+    "build": "parcel build index.html ",
     "start:parcel": "parcel index.html src/js/controllers/controller.js",
     "start:live": "live-server --port=8080 --host=localhost ./dist",
     "start": "npm-run-all --parallel start:parcel start:live",

@@ -21,7 +21,6 @@ export const getFetchID = async id => {
     const data = await helpers.AJAX(`${config.getURL}${id}`);
     const recipeObject = creatRicipeObject(data);
     state.recipe = { ...recipeObject };
-    console.log(state.recipe);
 
     if (state.bookmarks.some(mark => mark.id === id))
       state.recipe.bookmarked = true;

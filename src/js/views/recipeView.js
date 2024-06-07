@@ -1,6 +1,7 @@
 import icons from 'url:../../img/icons.svg';
 import View from '../views/view.js';
-import { Fraction } from 'fractional';
+import * as fracty from 'fracty';
+
 class RenderRecipeView extends View {
   _parentElment = document.querySelector('.recipe');
   data;
@@ -26,8 +27,6 @@ class RenderRecipeView extends View {
   }
 
   _getStr() {
-    console.log(this._data);
-
     return `
     <figure class="recipe__fig">
       <img src="${this._data.image_url}" alt="${
@@ -129,7 +128,7 @@ class RenderRecipeView extends View {
          <use href="${icons}.svg#icon-check"></use>
        </svg>
        <div class="recipe__quantity">${
-         item.quantity ? new Fraction(item.quantity).toString() : ''
+         item.quantity ? fracty(item.quantity).toString() : ''
        }</div>
        <div class="recipe__description">
          <span class="recipe__unit">${item.unit}</span>
