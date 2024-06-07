@@ -104,7 +104,8 @@
     "start:live": "live-server  --port=8080 --host=localhost ./dist",
     "start": "npm-run-all --parallel start:parcel start:live ",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "postinstall": "if [ \"$OSTYPE\" != \"darwin\" ]; then npm uninstall fsevents; fi"
   },
   "author": "",
   "license": "ISC",
