@@ -48,7 +48,6 @@
     "fast-json-stable-stringify": "^2.1.0",
     "fill-range": "^7.0.1",
     "fractional": "^1.0.0",
-    "fsevents": "^2.3.2",
     "glob-parent": "^5.1.2",
     "glob-to-regexp": "^0.4.1",
     "graceful-fs": "^4.2.11",
@@ -97,6 +96,9 @@
     "webpack": "^5.85.1",
     "webpack-sources": "^3.2.3",
     "yallist": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   },
   "scripts": {
     "start:parcel": "parcel index.html src/js/controllers/controller.js",
