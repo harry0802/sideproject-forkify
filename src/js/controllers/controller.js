@@ -1,14 +1,9 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-
 import * as model from '../models/model';
 import * as recipeView from '../views/recipeView';
 import * as searchView from '../views/searchView';
 import * as resultsView from '../views/resultView';
 import * as paginationView from '../views/paginationView';
 import * as bookMarkView from '../views/bookMarkView';
-import { async } from 'regenerator-runtime';
-
 import addRecipeView from '../views/addRecipeView';
 
 if (module.hot) {

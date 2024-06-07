@@ -17,6 +17,7 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html  src/js/controllers/controller.js",
+  "homepage": "https://harry0802.github.io/sideproject-forkify",
   "dependencies": {
     "@babel/runtime-corejs3": "^7.24.7",
     "acorn": "^8.8.2",
