@@ -99,7 +99,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url  --no-scope-hoist./",
     "start:parcel": "parcel index.html src/js/controllers/controller.js",
     "start:live": "live-server --port=8080 --host=localhost ./dist",
     "start": "npm-run-all --parallel start:parcel start:live",
